@@ -63,7 +63,7 @@ DEFAULT_SYSTEM_REJECT_QUOTA_BYTES: 2048000000 // 약 2G
 
   해당 secret 정보는 설치된 Quay Operator의 이미지 레지스트리에서 정보를 확인 할 수 있습니다. (Config Bundle Secret)
 
-  ![image-20220527223650577]([C:\Users\hyou\AppData\Roaming\Typora\typora-user-images\image-20220527223650577.png](https://github.com/justone0127/Quay-3.7-New-Features/blob/main/images/01_secret_info.png?raw=true))
+  ![image-20220527223650577](https://github.com/justone0127/Quay-3.7-New-Features/blob/main/images/01_secret_info.png?raw=true)
 
   ```bash
   $ oc get secret -n quay example-registry-quay-config-bundle-jhkm6 -o "jsonpath={$.data['config\.yaml']}" |                                            base64 -d > config.yaml
