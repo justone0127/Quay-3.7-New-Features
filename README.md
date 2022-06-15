@@ -87,21 +87,21 @@ DEFAULT_SYSTEM_REJECT_QUOTA_BYTES: 2048000000 // 약 2G
 
   콘솔에서 생성한 이미지 레지스트리에서 `configBundleSecret` 부분을 수정하여 반영합니다.
 
-  ![image-20220527224042610](C:\Users\hyou\AppData\Roaming\Typora\typora-user-images\image-20220527224042610.png)
+  ![image-20220527224042610](https://github.com/justone0127/Quay-3.7-New-Features/blob/main/images/02_config_update.png)
 
 - `FEATURE_QUOTA_MANAGEMENT` 설정 전
 
-  ![03_before_quota_settings](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\Quay_3.7_new_features\03_before_quota_settings.png)
+  ![03_before_quota_settings](https://github.com/justone0127/Quay-3.7-New-Features/blob/main/images/03_before_quota_settings.png)
 
 - `FEATURE_QUOTA_MANAGEMENT` 설정 후
 
-  ![04_after_quota_settings](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\Quay_3.7_new_features\04_after_quota_settings.png)
+  ![04_after_quota_settings](https://github.com/justone0127/Quay-3.7-New-Features/blob/main/images/04_after_quota_settings.png)
 
 - Image Push 테스트
 
   다음과 같이 레파지토리의 Quto 소비량을 확인할 수 있습니다.
 
-  ![image-20220527230440915](C:\Users\hyou\AppData\Roaming\Typora\typora-user-images\image-20220527230440915.png)
+  ![image-20220527230440915](https://github.com/justone0127/Quay-3.7-New-Features/blob/main/images/05_quota_consumed.png)
 
 
 
